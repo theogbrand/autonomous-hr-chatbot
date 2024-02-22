@@ -18,7 +18,7 @@ def main():
   Prints the start and name of the next 10 events on the user's calendar.
   """
   creds = service_account.Credentials.from_service_account_file(
-        "/Users/ogb/projects/cal/gcal-ai.json", scopes=SCOPES)
+        "/Users/ogb/projects/cal/creds/gcal-ai.json", scopes=SCOPES)
   # The file token.json stores the user's access and refresh tokens, and is
   # created automatically when the authorization flow completes for the first
   # time.
